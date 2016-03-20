@@ -1,0 +1,874 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>棒棒娃</title>
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #79cbe1;
+    }
+
+    #header {
+        background-image: url("1.jpg");
+        height: 110px;
+    }
+
+    #wrap {
+        width: 1040px;
+        margin: 0 auto;
+    }
+
+    .u1 {
+        list-style-type: none;
+        width: 100%;
+        height: 40px;
+        background-color: #bb1515;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .l1 {
+        float: left;
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    a {
+        display：block;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .on, .l1:hover {
+        background-color: #7d0302;
+        height: 45px;
+        line-height: 45px;
+        margin-top: -5px;
+    }
+
+    #mainbody {
+        width: 100%;
+    }
+
+    .img1 {
+        margin-top: 10px;
+        border: 1px solid #CCC;
+    }
+
+    .div1 {
+        background-color: #F93;
+        color: white;
+        font-family: 黑体;
+        font-size: 18px;
+        text-align: center;
+        width: 280px;
+        height: 60px;
+        line-height: 60px;
+        float: right;
+        margin-top: 10px;
+        margin-right: 20px;
+        cursor: pointer;
+        border: 1px solid #FFF;
+    }
+
+    .div2 {
+        background-color: #0CC;
+        color: white;
+        font-family: 黑体;
+        font-size: 18px;
+        text-align: center;
+        width: 280px;
+        height: 60px;
+        line-height: 60px;
+        position: absolute;
+        top: 240px;
+        right: 175px;
+        cursor: pointer;
+        border: 1px solid #FFF;
+    }
+
+    .div3 {
+        background-color: #0F6;
+        color: white;
+        font-family: 黑体;
+        font-size: 18px;
+        text-align: center;
+        width: 280px;
+        height: 60px;
+        line-height: 60px;
+        position: absolute;
+        top: 315px;
+        right: 175px;
+        cursor: pointer;
+        border: 1px solid #FFF;
+    }
+
+    .div4 {
+        width: 280px;
+        heitht: 400px;
+        position: absolute;
+        top: 395px;
+        right: 175px;
+    }
+
+    .u2 {
+        list-style-type: none;
+        width: 280px;
+        heitht: 400px;
+    }
+
+    .l2 {
+        background-color: #999;
+        text-align: center;
+        height: 40px;
+        line-height: 40px;
+        border: 1px solid #FFF;
+    }
+
+    .l3 {
+        float: left;
+    }
+
+    .list1 {
+        width: 205px;
+        height: 35px;
+        line-height: 35px;
+        background-color: #7d0302;
+        color: white;
+        text-align: center;
+        font-family: 黑体;
+    }
+
+    .list2 {
+        width: 75px;
+        height: 35px;
+        line-height: 35px;
+        background-color: #F33;
+        color: white;
+        text-align: center;
+        font-family: 黑体;
+    }
+
+    .l2:hover {
+        background-color: #666;
+    }
+
+    .div5 {
+        width: 713px;
+        height: 550px;
+        background-color: white;
+        margin-top: 15px;
+        border: 1px solid #CCC;
+    }
+
+    .div6 {
+        width: 280px;
+        height: 550px;
+        background-color: white;
+        position: absolute;
+        top: 570px;
+        right: 175px;
+        border: 1px solid #CCC;
+    }
+
+    .div7 {
+        width: 713px;
+        height: 320px;
+        background-color: white;
+        margin-top: 15px;
+        border: 1px solid #CCC;
+    }
+
+    .div8 {
+        width: 280px;
+        height: 370px;
+        background-color: white;
+        position: absolute;
+        top: 1140px;
+        right: 175px;
+    }
+
+    .div9 {
+        width: 713px;
+        height: 120px;
+        background-color: white;
+        margin-top: 15px;
+        border: 1px solid #CCC;
+    }
+
+    .div10 {
+        width: 713px;
+        height: 120px;
+        background-color: white;
+        margin-top: 15px;
+        border: 1px solid #CCC;
+    }
+
+    .div11 {
+        width: 280px;
+        height: 200px;
+        background-color: white;
+        position: absolute;
+        top: 1530px;
+        right: 175px;
+        border: 1px solid #CCC;
+    }
+
+    .div12 {
+        width: 340px;
+        height: 400px;
+        background-color: white;
+        margin-top: 20px;
+        border: 1px solid #CCC;
+    }
+
+    .div13 {
+        width: 640px;
+        height: 400px;
+        background-color: white;
+        position: absolute;
+        top: 1750px;
+        right: 175px;
+        border: 1px solid #CCC;
+    }
+
+    .div14 {
+        height: 15px;
+        background-color: #bb1515;
+        margin-top: 60px;
+    }
+
+    .div15 {
+        height: 200px;
+        background-color: #413c39;
+    }
+
+    .div16 {
+        height: 40px;
+        line-height: 40px;
+        background-color: white;
+        text-align: center;
+    }
+
+    .d1, .d2, .d3, .d4 {
+        float: left;
+        margin-top: 30px;
+        margin-left: 200px;
+    }
+
+    h3 {
+        color: #999;
+        font-family: 楷书;
+    }
+
+    .img3 {
+        margin-top: 5px;
+    }
+
+    .img4 {
+        margin-top: 10px;
+        margin-left: 13px;
+    }
+
+    .img3:hover {
+        border: 2px solid yellow;
+    }
+
+    .img4:hover {
+        border: 2px solid blue;
+    }
+
+    .u7 {
+        list-style-type: none;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 18px;
+    }
+
+    .list3 {
+        width: 300px;
+        height: 50px;
+        line-height: 50px;
+        float: left;
+        text-align: center;
+    }
+
+    .list4 {
+        background-color: #7d0302;
+    }
+
+    .list5 {
+        background-color: #F33;
+    }
+
+    .list4:hover {
+        background-color: #CCC;
+    }
+
+    .list5:hover {
+        background-color: #CCC;
+    }
+
+    .img8 {
+        float: left;
+    }
+
+    .img6 {
+        position: relative;
+        top: 50px;
+        left: 30px;
+    }
+
+    .g1 {
+        position: absolute;
+        top: 820px;
+        left: 340px;
+    }
+
+    .g2 {
+        position: absolute;
+        top: 820px;
+        left: 550px;
+    }
+
+    .g3 {
+        position: absolute;
+        top: 1045px;
+        left: 340px;
+    }
+
+    .g4 {
+        position: absolute;
+        top: 1045px;
+        left: 550px;
+    }
+
+    .g1:hover {
+        border: 1px solid #CCC;
+    }
+
+    .g2:hover {
+        border: 1px solid #CCC;
+    }
+
+    .g3:hover {
+        border: 1px solid #CCC;
+    }
+
+    .g4:hover {
+        border: 1px solid #CCC;
+    }
+
+    .v {
+        width: 70px;
+        height: 20px;
+        background-color: #666;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        line-height: 20px;
+        position: absolute;
+        top: 590px;
+        left: 750px;
+    }
+
+    .v:hover {
+        border: 1px solid white;
+    }
+
+    .img9, .img10 {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .img11, .img12, .img13 {
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+
+    .img11:hover {
+        border: 1px solid #CCC
+    }
+
+    .img12:hover {
+        border: 1px solid #CCC
+    }
+
+    .img13:hover {
+        border: 1px solid #CCC
+    }
+
+    .q {
+        font-size: 24px;
+        font-family: 幼圆;
+        color: #999;
+    }
+
+    .h1 {
+        border: 1px solid #7d0302;
+        width: 150px;
+    }
+
+    .d {
+        width: 100px;
+        height: 20px;
+        background-color: #666;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        line-height: 20px;
+        position: absolute;
+        top: 1150px;
+        left: 730px;
+    }
+
+    .d:hover {
+        border: 1px solid white;
+    }
+
+    .p1 {
+        background-color: #C30;
+        color: white;
+        width: 200px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .p2 {
+        background-color: #3C6;
+        color: white;
+        width: 250px;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .p3 {
+        background-color: #FC0;
+        color: white;
+        width: 150px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .p4 {
+        background-color: #F66;
+        color: white;
+        width: 140px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    h2 {
+        letter-spacing: 8px;
+        color: #C33;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .p1:hover {
+        border: 1px solid #CCC;
+    }
+
+    .p2:hover {
+        border: 1px solid #CCC;
+    }
+
+    .p3:hover {
+        border: 1px solid #CCC;
+    }
+
+    .p4:hover {
+        border: 1px solid #CCC;
+    }
+
+    .p5 {
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        bottom: 70px;
+        left: 130px;
+        color: #999;
+    }
+
+    .p5:hover {
+        color: #333;
+    }
+
+    .a1 {
+        color: #06F;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        position: relative;
+        bottom: 50px;
+        left: 140px;
+    }
+
+    .p6 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: bold;
+        position: relative;
+        bottom: 90px;
+        left: 130px;
+        color: #999;
+    }
+
+    .p6:hover {
+        color: #333;
+    }
+
+    .a2 {
+        color: #06F;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        position: relative;
+        bottom: 80px;
+        left: 140px;
+    }
+
+    .nav1 {
+        width: 138px;
+        height: 55px;
+        text-align: center;
+        line-height: 55px;
+        color: #999;
+        border: 1px solid #CCC;
+        font-size: 22px;
+    }
+
+    .nav2 {
+        width: 139px;
+        height: 55px;
+        text-align: center;
+        line-height: 55px;
+        color: #999;
+        border: 1px solid #CCC;
+        border-left: 0;
+        font-size: 22px;
+        position: relative;
+        top: -57px;
+        left: 140px;
+    }
+
+    .nav1:hover {
+        color: #C03;
+    }
+
+    .nav2:hover {
+        color: #C03;
+    }
+
+    .img14 {
+        position: relative;
+        top: -35px;
+        left: 30px;
+    }
+
+    .p7 {
+        text-align: center;
+        position: relative;
+        top: -10px;
+    }
+
+    .p8 {
+        font-size: 24px;
+        color: #666;
+        position: relative;
+        top: 30px;
+        left: 15px;
+    }
+
+    .h2 {
+        width: 250px;
+        margin-left: 15px;
+        margin-top: 40px;
+    }
+
+    .p9 {
+        width: 115px;
+        height: 30px;
+        line-height: 30px;
+        background-color: #C00;
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+
+    .p9:hover {
+        border: 1px solid #CCC;
+    }
+
+    .p10 {
+        font-size: 26px;
+        font-family: 黑体;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .h3 {
+        width: 250px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .img15 {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .p11 {
+        font-size: 16px;
+        font-family: 黑体;
+        margin-top: -90px;
+        margin-left: 140px;
+    }
+
+    .p12 {
+        font-size: 11px;
+        margin-top: 5px;
+        margin-left: 140px;
+    }
+
+    .in1 {
+        width: 70px;
+        height: 30px;
+        background-color: red;
+        color: white;
+        margin-top: 8px;
+        margin-left: 140px;
+    }
+
+    .img16 {
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+
+    .p13 {
+        font-size: 16px;
+        font-family: 黑体;
+        margin-top: -90px;
+        margin-left: 140px;
+    }
+
+    .p14 {
+        font-size: 11px;
+        margin-top: 5px;
+        margin-left: 140px;
+    }
+
+    .in2 {
+        width: 70px;
+        height: 30px;
+        background-color: red;
+        color: white;
+        margin-top: 8px;
+        margin-left: 140px;
+    }
+
+    .img17 {
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+
+    .p15 {
+        font-size: 16px;
+        font-family: 黑体;
+        margin-top: -90px;
+        margin-left: 140px;
+    }
+
+    .p16 {
+        font-size: 11px;
+        margin-top: 5px;
+        margin-left: 140px;
+    }
+
+    .in3 {
+        width: 70px;
+        height: 30px;
+        background-color: red;
+        color: white;
+        margin-top: 8px;
+        margin-left: 140px;
+    }
+    </style>
+</head>
+
+<body>
+<div id="header"></div>
+<div id="wrap">
+    <ul class="u1">
+        <li class="on l1"><a href="#">首页</a></li>
+        <li class="l1"><a href="#">产品</a></li>
+        <li class="l1"><a href="#">吃货俱乐部</a></li>
+        <li class="l1"><a href="#">游戏专区</a></li>
+        <li class="l1"><a href="#">新闻</a></li>
+        <li class="l1"><a href="#">关于我们</a></li>
+        <li class="l1"><a href="#">消息</a></li>
+    </ul>
+    <div id="mainbody">
+        <img class="img1" src="2.jpg"/>
+
+        <div class="div1"><a href="#" target="_blank">╰(￣▽￣)╮每日签到</a></div>
+        <div class="div2"><a href="#">( # ▽ # )发布美食创意</a></div>
+        <div class="div3"><a href="#">╭(′▽`)╯加入我们</a></div>
+        <div class="div4">
+            <ul class="u2">
+                <li class="list1 l3">新闻公告</li>
+                <li class="list2 l3"><a href="#">更多</a></li>
+                <li class="l2"><a href="#"></a></li>
+                <li class="l2"><a href="#">资讯 1</a></li>
+                <li class="l2"><a href="#">资讯 2</a></li>
+                <li class="l2"><a href="#">咨讯 3</a></li>
+            </ul>
+        </div>
+        <div class="div5">
+            <img class="img8" src="8.jpg"/>
+            <img class="img6" src="6.jpg"/>
+            <img class="img7 g1" src="7.jpg"/>
+            <img class="img7 g2" src="7.jpg"/>
+            <img class="img7 g3" src="7.jpg"/>
+            <img class="img7 g4" src="7.jpg"/>
+
+            <div class="v"><a href="#">更多 +</a></div>
+        </div>
+        <div class="div6">
+            <p class="p8">本周明星吃货</p>
+            <hr class="h2"/>
+            <p class="p9"><a href="#">成为吃货达人</a></p>
+
+            <p class="p10">最新活动</p>
+            <hr class="h3"/>
+            <img class="img15" src="15.jpg"/>
+
+            <p class="p11">换装行动之豆瓣</p>
+
+            <p class="p12">说出你换了哪些豆瓣应用！</p>
+            <input class="in1" type="button" value="立即加入"/>
+            <img class="img16" src="16.jpg"/>
+
+            <p class="p13">爱心小糕点</p>
+
+            <p class="p14">爱心小糕点温暖你的心！</p>
+            <input class="in2" type="button" value="立即加入"/>
+            <img class="img17" src="9.jpg"/>
+
+            <p class="p15">新鲜蔬菜水果</p>
+
+            <p class="p16">这样的蔬果，还舍得吃吗？</p>
+            <input class="in3" type="button" value="立即加入"/>
+        </div>
+        <div class="div7">
+            <p class="q">热门文章推荐</p>
+
+            <div class="d"><a href="#">查看全部 +</a></div>
+            <hr class="h1"/>
+            <img class="img11" src="11.jpg"/>
+            <img class="img12" src="12.jpg"/>
+            <img class="img13" src="13.jpg"/>
+        </div>
+        <div class="div8">
+            <div class="nav1">社区微博</div>
+            <div class="nav2">官方微博</div>
+            <img class="img14" src="14.jpg"/>
+
+            <p class="p7">官方微信公众平台</p>
+        </div>
+        <div class="div9">
+            <img class="img9" src="9.jpg"/>
+
+            <p class="p5">这样的蔬菜水果，你还会舍得吃吗？</p>
+            <a class="a1" href="#">★Josiechow</a>
+        </div>
+        <div class="div10">
+            <img class="img10" src="10.jpg"/>
+
+            <p class="p6">包邮！官方旗舰店100%正品保证，最新鲜的货品生产日期，<br/>更新鲜，更美味，开袋即食！首创糖果纸包装，方法简单</p>
+            <a class="a2" href="#">☆落寞</a>
+        </div>
+        <div class="div11">
+            <h2>美食知识总汇</h2>
+
+            <p class="p1"><a href="#">自制腊肠，美味又实惠</a></p>
+
+            <p class="p2"><a href="#">告诉你们创意蛋糕的制作方法</a></p>
+
+            <p class="p3"><a href="#">这个牛肉好吃吗？</a></p>
+
+            <p class="p4"><a href="#">笔记除尘方法好</a></p>
+        </div>
+        <div class="div12">
+            <img class="img3" src="3.jpg"/>
+        </div>
+        <div class="div13">
+            <ul class="u7">
+                <li class="list3 list4"><a href="#">个性定制</a></li>
+                <li class="list3 list5"><a href="#">礼盒套装</a></li>
+            </ul>
+            <img class="img4" src="4.jpg"/>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="div14"></div>
+    <div class="div15">
+        <div class="d1">
+            <h3>新手指南</h3>
+            <ul class="u3">
+                <li><a href="#">成长体系</a></li>
+                <li><a href="#">铁柱粉丝计划</a></li>
+                <li><a href="#">联系客服</a></li>
+                <li><a href="#">常见问题</a></li>
+            </ul>
+        </div>
+        <div class="d2">
+            <h3>联系我们</h3>
+            <ul class="u4">
+                <li><a href="#">客服电话</a></li>
+                <li><a href="#">加盟电话</a></li>
+                <li><a href="#">招聘电话</a></li>
+            </ul>
+        </div>
+        <div class="d3">
+            <h3>声明</h3>
+            <ul class="u5">
+                <li><a href="#">免费声明</a></li>
+                <li><a href="#">法律声明</a></li>
+                <li><a href="#">版权声明</a></li>
+            </ul>
+        </div>
+        <div class="d4">
+            <h3>合作</h3>
+            <ul class="u6">
+                <li><a href="#">战略合作伙伴</a></li>
+                <li><a href="#">网站联盟</a></li>
+                <li><a href="#">友情链接</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="div16">COPYRIGHT @ 2014 BANGBANGWA.COM ALL RIGHTS RESERVES RESERVED 版权所有.成都市棒棒娃实业有限公司 蜀ICP备05021946号-1
+    </div>
+</div>
+</body>
+</html>
